@@ -84,6 +84,11 @@
         "functionBody": "return (model.username && model.password);"
       }
     },
+    "disableMatter": {
+      "type": "boolean",
+      "title": "Do Not Publish Over Matter",
+      "description": "Outlets, switches and power strips are published over Matter as well as HomeKit, wherever the bridge this plugin runs in has Matter enabled. Set this to true to leave them out of Matter."
+    },
     "disableDeviceLogging": {
       "type": "boolean",
       "title": "Disable Device Logging",
@@ -1848,7 +1853,7 @@
       "title": "Advanced Settings",
       "description": "Advanced settings for the plugin, including refresh rate options.",
       "expandable": true,
-      "items": ["disableDeviceLogging", "domain", "cloudRefreshRate", "refreshRate"]
+      "items": ["disableMatter", "disableDeviceLogging", "domain", "cloudRefreshRate", "refreshRate"]
     },
     {
       "key": "singleDevices",

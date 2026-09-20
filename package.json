@@ -9,31 +9,13 @@
     "email": "bwp91@icloud.com"
   },
   "license": "MIT",
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/bwp91"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/bwp91"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/bwp91"
-    },
-    {
-      "type": "paypal",
-      "url": "https://www.paypal.me/BenPotter"
-    }
-  ],
-  "homepage": "https://github.com/homebridge-plugins/homebridge-meross",
+  "homepage": "https://github.com/lirik44/homebridge-meross-matter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/homebridge-plugins/homebridge-meross.git"
+    "url": "git+https://github.com/lirik44/homebridge-meross-matter.git"
   },
   "bugs": {
-    "url": "https://github.com/homebridge-plugins/homebridge-meross/issues"
+    "url": "https://github.com/lirik44/homebridge-meross-matter/issues"
   },
   "keywords": [
     "homebridge",
@@ -57,8 +39,7 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "test-coverage": "npm run test -- --coverage",
-    "changelog:sync": "node .github/scripts/sync-changelog.mjs"
+    "test-coverage": "npm run test -- --coverage"
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.5",
